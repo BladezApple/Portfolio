@@ -1,0 +1,140 @@
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100svh;
+    pointer-events: none;
+    z-index: 10000;
+}
+
+.menu a,
+.menu p {
+    position: relative;
+    color: var(--foreground);
+    display: block;
+    text-decoration: none;
+    line-height: 1;
+    will-change: transform;
+    -webkit-font-smoothing: antialiased;
+}
+
+.nav-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: auto;
+    z-index: 1000;
+    mix-blend-mode: normal;
+    pointer-events: none;
+}
+
+.nav {
+    pointer-events: all;
+    position: relative;
+    width: 100vw;
+    padding: 1.5rem;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav a,
+.nav p {
+    position: relative;
+    color: var(--foreground);
+    display: block;
+    text-decoration: none;
+    line-height: 1;
+    will-change: transform;
+    -webkit-font-smoothing: antialiased;
+}
+
+.nav-logo {
+    flex: 2;
+}
+
+.nav-items {
+    flex: 1;
+    display: flex;
+}
+
+.nav-menu-time {
+    flex: 1;
+    margin-top: 9px;
+}
+
+.nav-links {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    align-items: center;
+}
+
+.nav-links .revealer {
+    cursor: pointer;
+}
+
+.nav-links a {
+    transition: all 0.2s ease;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 0.5rem 1rem;
+    border-radius: 100px;
+    color: var(--white);
+}
+
+.nav-links a:hover {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.nav-logo a {
+    transition: opacity 0.2s ease;
+}
+
+.nav-logo a:hover {
+    opacity: 0.7;
+}
+
+.nav-logo .revealer {
+    cursor: pointer;
+}
+
+img.logo-img {
+    width: 2rem;
+}
+
+.revealer {
+    position: relative;
+    width: max-content;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+@media (max-width: 480px) {
+    .nav {
+        gap: 1rem;
+        align-items: center;
+    }
+
+    .nav-links a {
+        font-size: 0.8rem;
+    }
+
+    .nav-logo a {
+        font-size: 1.3rem;
+        width: 6rem;
+    }
+
+    .nav-menu-time {
+        display: none;
+    }
+
+    .nav-links {
+        gap: 0.5rem;
+        align-items: start;
+    }
+
+    .nav-links a {
+        padding: 0.6rem 0.8rem;
+    }
+}

@@ -1,0 +1,11 @@
+.line {
+  position: relative;
+  transform: translateY(100%);
+  will-change: transform;
+}
+
+.line,
+.line > div,
+.line * {
+  color: inherit;
+}
