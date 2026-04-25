@@ -8,11 +8,11 @@ import { ViewTransitions } from "next-view-transitions";
 
 export const metadata = {
   title: {
-    template: "%s | Muhammad Ahmad",
+    template: "%s | BladeZ",
     default: "Portfolio",
   },
   description:
-    "Pakistan based Product Designer and Web Developer with 3+ years of experience creating digital products across fintech, mobility, and consumer apps. Specialized in user-centered design, design systems, and front-end development.",
+    "Pakistan based Product Designer and Developer with 3+ years of experience creating digital products across fintech, mobility, and consumer apps. Specialized in user-centered design, design systems, and front-end development.",
   keywords: [
     "Product Designer Pakistan",
     "UI/UX Designer",
@@ -26,36 +26,36 @@ export const metadata = {
     "React Developer",
     "Figma Expert",
   ],
-  authors: [{ name: "Muhammad Ahmad", url: "https://m-ahmadportfolio.vercel.app/" }],
-  creator: "Muhammad Ahmad",
-  publisher: "Muhammad Ahmad",
-  metadataBase: new URL("https://m-ahmadportfolio.vercel.app/"),
+  authors: [{ name: "BladeZ", url: "https://bladezdoesstuff.vercel.app/" }],
+  creator: "BladeZ",
+  publisher: "BladeZ",
+  metadataBase: new URL("https://bladezdoesstuff.vercel.app/"),
   alternates: {
     canonical: "/",
   },
   openGraph: {
     type: "website",
     locale: "en_GB",
-    url: "https://m-ahmadportfolio.vercel.app/",
-    title: "Muhammad Ahmad | Web Developer and Design Specialist",
+    url: "https://bladezdoesstuff.vercel.app/",
+    title: "BladeZ | Professional Developer and Design Specialist",
     description:
-      "Pakistan based Product Designer and Web Developer with 3+ years of experience creating digital products across fintech, mobility, and consumer apps. Specialized in user-centered design, design systems, and front-end development.",
-    siteName: "Ahmad Studios",
+      "Pakistan based Product Designer and Developer with 3+ years of experience creating digital products across fintech, mobility, and consumer apps. Specialized in user-centered design, design systems, and front-end development.",
+    siteName: "BladeZ Does Stuff",
     images: [
       {
         url: "/trail-images/img1.jpg",
         width: 1200,
         height: 630,
-        alt: "Muhammad Ahmad | Web Developer and Design Specialist",
+        alt: "BladeZ | Web Developer and Design Specialist",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Muhammad Ahmad | Web Developer and Design Specialist",
+    title: "BladeZ | Web Developer and Design Specialist",
     description:
-      "Pakistan based Product Designer and Web Developer with 3+ years of experience creating digital products across fintech, mobility, and consumer apps. Specialized in user-centered design, design systems, and front-end development.",
-    creator: "@Muhammad Ahmad",
+      "Pakistan based Product Designer and Developer with 3+ years of experience creating digital products across fintech, mobility, and consumer apps. Specialized in user-centered design, design systems, and front-end development.",
+    creator: "@BladeZ",
     images: ["/trail-images/img1.jpg"],
   },
   robots: {

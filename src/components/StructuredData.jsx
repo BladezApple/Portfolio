@@ -2,11 +2,11 @@ export default function StructuredData() {
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "Person",
-    name: "Muhammad Ahmad",
-    jobTitle: "Web Developer and Design Specialist",
+    name: "BladeZ",
+    jobTitle: "Web Developer, Minecraft Server Setup and Design Specialist",
     description:
-      "Pakistan-based Product Designer and Design Engineer with 3+ years of experience creating digital products",
-    url: "https://m-ahmadportfolio.vercel.app",
+      "Pakistan-based Product Designer and Software Engineer with 3+ years of experience creating digital products",
+    url: "https://bladezdoesstuff.vercel.app",
     address: {
       "@type": "PostalAddress",
       addressLocality: "pakistan",
@@ -19,6 +19,7 @@ export default function StructuredData() {
       "User Interface Design",
       "Design Systems",
       "Frontend Development",
+      "Sofware Engineer",
       "React",
       "Next.js",
       "Figma",

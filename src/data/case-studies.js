@@ -1,5 +1,74 @@
 export const caseStudies = [
   {
+    id: "junglemc",
+    title: "JungleMC Network (Minecraft Network)",
+    subtitle: "Core Developer, Network Setup, Team Collaboration",
+    year: "2026",
+    client: "ElectroForker, Ivan Delkov (Network Owner & Manager respectively)",
+    services: ["Minecraft Network Setup", "Software Engineering", "Team Collaboration"],
+    description: "JungleMC is my largest and most ambitious project to date — a full Minecraft Network Server I am actively building as Core Developer, collaborating with a dedicated Textures Developer. The network is being developed with multiple gamemodes in scope, launching with SkyBlock as the flagship experience before expanding into additional gamemodes.",
+    challenge: "Building an entire Minecraft network from the ground up is an enormous undertaking — architecting systems that are scalable across multiple gamemodes, maintaining clean and sustainable code across a large codebase, and ensuring each gamemode feels polished and complete rather than rushed, all while working within a small team.",
+    solution: "By taking on the Core Developer role and establishing a clear development roadmap, we broke the project into focused phases — launching with SkyBlock first to build a solid foundation before expanding. Close collaboration with the Textures Developer ensures the visual and technical sides of the network stay aligned throughout development.",
+    results: ["Architecting and developing a full Minecraft Network from scratch as Core Developer", "Designing and building a feature-complete SkyBlock gamemode as the network's flagship launch experience", "Establishing scalable systems and a clean codebase built to support multiple gamemodes over time", "Managing end-to-end network development within a lean, focused two-person core team"],
+    hero: "/JungleMC/hero.png",
+    herofull: "/JungleMC/herofull.png",
+    images: [
+      "/JungleMC/jungle1.webp",
+      "/JungleMC/jungle2.webp",
+      "/JungleMC/jungle3.webp",
+      "/JungleMC/jungle4.webp",
+      "/JungleMC/jungle5.webp",
+      "/JungleMC/jungle6.webp",
+      "/JungleMC/jungle7.webp",
+      "/JungleMC/jungle8.webp"
+    ],
+    tags: ["Minecraft Network Developer", "Core Developer", "Large-Scale Development"],
+    featured: true
+  },
+  {
+    id: "ragemc",
+    title: "RageMC (Minecraft Server)",
+    subtitle: "Minecraft Configurations, Performance Optimization",
+    year: "2026",
+    client: "samxri (Owner of RageMC)",
+    services: ["Minecraft Configurator", "Server Performance Optimization"],
+    description: "RageMC is a mid-to-large Minecraft server averaging 50+ daily players, where I took on the role of Performance Optimizer. I ran detailed Spark profiler analyses to diagnose server inefficiencies and implement targeted fixes aimed at achieving a smoother, more stable server experience for players.",
+    challenge: "I was relatively new to Minecraft server performance optimization at the time, which made the initial diagnosis phase particularly demanding. Understanding profiler outputs, identifying the root causes of lag, and knowing which fixes to prioritize required a significant amount of research and hands-on analysis.",
+    solution: "Through thorough research and careful interpretation of Spark profile reports, I was able to accurately diagnose the key performance bottlenecks. I then systematically implemented the appropriate fixes, learning and refining my approach throughout the process.",
+    results: ["Significantly improved server TPS (Ticks Per Second) for a smoother gameplay experience", "Reduced MSPT (Milliseconds Per Tick) bringing the server well within healthy performance thresholds", "Delivered a noticeable overall performance uplift across a live server with 50+ daily active players", "Developed strong practical knowledge of Spark profiling and Minecraft server optimization"],
+    hero: "/RageMC/hero.webp",
+    herofull: "/RageMC/herofull.webp",
+    images: [
+      "/RageMC/rage1.webp",
+      "/RageMC/rage2.webp",
+      "/RageMC/rage3.webp"
+    ],
+    tags: ["Minecraft Configurator", "Performance Optimizer"],
+    featured: true
+  },
+  {
+    id: "underfivestudios",
+    title: "UnderFive Studios",
+    subtitle: "Minecraft Services, Community Service, Studios Foundation",
+    year: "2025 - Present",
+    client: "Personal Foundation",
+    services: ["Minecraft Services", "Studios Foundation"],
+    description: "UnderFive Studios is a Minecraft Services Studio I co-founded alongside 2 other founders and a broader team. We create mostly free and occasionally paid but always accessible Minecraft services including Plugins, Builds, and Setups, so that server owners never have to worry about high prices cutting into their experience.",
+    challenge: "Our biggest challenge was figuring out how to compensate our developers fairly while still keeping the vast majority of our products free or very affordable. Balancing a sustainable business model with our core mission of accessibility required a lot of careful thought.",
+    solution: "We developed a detailed pricing model backed by thorough calculations, and made a strategic decision to focus primarily on pre-made, reusable resources so a single product can generate revenue repeatedly without additional development cost each time. This allowed us to fairly compensate contributors while keeping prices low.",
+    results: ["Co-founded and scaled a Minecraft services studio with a full founding and development team", "Built a sustainable pricing model that balances developer compensation with product accessibility", "Established a catalogue of reusable plugins, builds, and setups serving server owners at low to no cost", "Embedded charitable giving into the business model with 10% of profits donated"],
+    hero: "/UnderFive Studios/hero.webp",
+    herofull: "/UnderFive Studios/herofull.webp",
+    images: [
+      "/UnderFive Studios/ufs2.webp",
+      "/UnderFive Studios/ufs3.webp",
+      "/UnderFive Studios/ufs4.webp",
+      "/UnderFive Studios/ufs5.webp"
+    ],
+    tags: ["Community Service", "Minecraft Services", "Studios Foundation"],
+    featured: true
+  },
+  {
     id: "laamore",
     title: "La Amore",
     subtitle: "Web Design and Dev, Brand Owner",
@@ -13,7 +82,6 @@ export const caseStudies = [
     hero: "/LaAmore/hero.webp",
     herofull: "/LaAmore/herofull.webp",
     images: [
-      "/LaAmore/herofull.webp",
       "/LaAmore/img_1.webp",
       "/LaAmore/img_2.webp",
       "/LaAmore/img_3.webp",
@@ -34,8 +102,8 @@ export const caseStudies = [
     solution: "To overcome this, we established a clear workflow early on, defining responsibilities between frontend and backend from the start of each project. I focused on creating well-structured designs that were practical to implement, while maintaining consistent UI standards across projects.",
     results: ["Successfully co-founded a service-based web development startup", "Delivered multiple full-stack websites through effective frontend-backend collaboration", "Strengthened skills in client communication, planning, and real-world project execution", "Gained hands-on experience working in a professional team environment"],
     hero: "/Web Startup/hero.webp",
+    herofull: "/Web Startup/herofull.webp",
     images: [
-      "/Web Startup/herofull.webp",
       "/Web Startup/img_1.webp",
       "/Web Startup/img_2.webp",
       "/Web Startup/img_3.webp",
@@ -56,8 +124,8 @@ export const caseStudies = [
     solution: "To address these challenges, I developed a structured editing workflow and reusable design systems for quiz layouts, animations, and graphics. I optimized timelines and templates to efficiently adapt content into different languages while preserving clarity and pacing. Regular communication with the client helped align expectations, refine visual styles, and maintain consistency throughout the project’s duration.",
     results: ["Worked as the primary Video editor and Graphics Designer for a 100K+ subscriber YouTube channel", "Produced multilingual quiz videos in English, Spanish, and Javanese", "Maintained long-term client collaboration for over one year", "Designed engaging graphics and layouts for recurring Video formats", "Generated over $1200 in earnings through sustained freelance work"],
     hero: "/Cerebro Ludico/hero.webp",
+    herofull: "/Cerebro Ludico/herofull.webp",
     images: [
-      "/Cerebro Ludico/herofull.webp",
       "/Cerebro Ludico/img_1.webp",
       "/Cerebro Ludico/img_2.webp",
     ],
@@ -76,8 +144,8 @@ export const caseStudies = [
     solution: "To solve this, I focused on establishing a simple but consistent visual direction early on, including typography, color usage, and layout style. I efficiently recreated the short videos with targeted improvements, designed a clean and adaptable logo, and generated minimalistic AI-based visuals that complemented the fitness brand without overwhelming the content.",
     results: ["Completed a multi-part Video Editing and Graphic Design project for a fitness startup", "Recreated and enhanced two short-form videos with custom modifications", "Designed a logo tailored to a fitness and rehabilitation-focused brand", "Produced minimalistic AI-generated visuals aligned with the startup’s identity", "Successfully delivered all project components within a $70 freelance budget"],
     hero: "/Daily Prehab/hero.png",
+    herofull: "/Daily Prehab/herofull.png",
     images: [
-      "/Daily Prehab/herofull.png",
       "/Daily Prehab/img_1.webp",
       "/Daily Prehab/img_2.png",
       "/Daily Prehab/img_3.png",

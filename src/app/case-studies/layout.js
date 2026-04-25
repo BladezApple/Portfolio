@@ -1,9 +1,9 @@
 export const metadata = {
   title: "Past Projects",
   description:
-    "Explore my websites and designs featuring work with various startups, influencers and more. See how I approach user-centered design challenges and deliver impactful output.",
+    "Explore my designs and development work featuring work with various startups, influencers and more. See how I approach user-centered design challenges and deliver impactful output.",
   openGraph: {
-    title: "Web and Design Projects | Muhammad Ahmad",
+    title: "Past Projects | BladeZ",
     description:
       "Explore my websites and designs featuring work with various startups, influencers and more. See how I approach user-centered design challenges and deliver impactful output.",
     images: [
@@ -11,12 +11,12 @@ export const metadata = {
         url: "/trail-images/img1.jpg",
         width: 1200,
         height: 630,
-        alt: "Web and Design Projects | Muhammad Ahmad",
+        alt: "Dev and Design Projects | BladeZ",
       },
     ],
   },
   twitter: {
-    title: "Web and Design Projects | Muhammad Ahmad",
+    title: "Dev and Design Projects | BladeZ",
     description:
       "Explore my websites and designs featuring work with various startups, influencers and more. See how I approach user-centered design challenges and deliver impactful output.",
   },

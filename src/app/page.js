@@ -13,8 +13,36 @@ CustomEase.create("hop", "0.9, 0, 0.1, 1");
 
 const workExperience = [
   {
+    position: "Core Developer",
+    company: "JungleMC Network (Minecraft Server)",
+    duration: "2026 - Present",
+    link: "/case-studies/junglemc",
+  },
+  {
+    position: "Video Editor",
+    company: "Starmania Network (Minecraft Server)",
+    duration: "2026 - Present"
+  },
+  {
+    position: "Video Editor",
+    company: "CobbleLand (Minecraft Server)",
+    duration: "2026 - Present"
+  },
+  {
+    position: "Performance Optimizer",
+    company: "RageMC (Minecraft Server)",
+    duration: "2026 - 2026",
+    link: "/case-studies/ragemc",
+  },
+  {
+    position: "CEO",
+    company: "UnderFive Studios (Minecraft Marketplace)",
+    duration: "2025 - Present",
+    link: "/case-studies/laamore",
+  },
+  {
     position: "Founder",
-    company: "La Amore (Hoodie Brand)",
+    company: "La Amore (Hoodie Brand, discontinued)",
     duration: "2025 - Present",
     link: "/case-studies/laamore",
   },
@@ -287,7 +315,7 @@ export default function Home() {
 
       <section className="about-img" ref={aboutImgRef}>
         <div className="about-img-container">
-          <img src="/about.webp" alt="Muhammad Ahmad" />
+          <img src="/about.webp" alt="BladeZ" />
         </div>
       </section>
 
@@ -296,9 +324,9 @@ export default function Home() {
           <Copy delay={showPreloader ? 6.2 : 0.9}>
             <h1>
               <span className="spacer">&nbsp;</span>
-              Professional Web Developer and Video Editor
-              with 3+ years of experience designing Digital Products and creating
-              modern Websites.
+              Professional Developer and Designer
+              with 3+ years of experience designing Digital Products, creating
+              modern Websites and Minecraft Servers.
             </h1>
           </Copy>
         </div>
@@ -318,7 +346,7 @@ export default function Home() {
               My path to professional work first started in 2023 with
               a mere $7 contract on Upwork. Since then, I have scaled up my
               skillset to include Web Development, Video Editing, UI/UX
-              Designing and more.
+              Designing, Minecraft Server Setups and more.
             </p>
           </Copy>
           <Copy delay={0.4}>
@@ -331,8 +359,7 @@ export default function Home() {
           </Copy>
           <Copy delay={0.6}>
             <p>
-              Today, I’m the Founder of La Amore (Premium Hoodie brand), 
-              and the Co-Founder of a Web Development Startup.
+              Today, I’m the CEO of UnderFive Studios (Minecraft Studios).
               Having built my skillsets and these ventures from near scratch,
               I have absorbed experiences that help me deliver skills that
               matter.
@@ -381,10 +408,10 @@ export default function Home() {
           <div className="about-skills-col skills-playground">
             <div className="object-container">
               <div className="object os-1">
-                <p className="mono">HTML</p>
+                <p className="mono">Pterodactyl</p>
               </div>
               <div className="object os-2">
-                <p className="mono">CSS</p>
+                <p className="mono">Minecraft Setups</p>
               </div>
               <div className="object os-3">
                 <p className="mono">Tailwind CSS</p>

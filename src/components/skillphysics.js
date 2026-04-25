@@ -15,8 +15,8 @@ export const initSkillsPhysics = () => {
     density: 0.002,
     wallThickness: 200,
     columns: 4,
-    horizontalSpacing: 20,
-    verticalSpacing: 100,
+    horizontalSpacing: 12,
+    verticalSpacing: 60,
   };
 
   let engine,
@@ -68,28 +68,37 @@ export const initSkillsPhysics = () => {
 
     const objects = container.querySelectorAll(".object");
     const cols = config.columns;
-    
+
     const sampleRect = objects[0].getBoundingClientRect();
     const avgWidth = sampleRect.width;
-    
-    const totalGridWidth = (avgWidth * cols) + (config.horizontalSpacing * (cols - 1));
+    const avgHeight = sampleRect.height;
+
+    const totalGridWidth =
+      avgWidth * cols + config.horizontalSpacing * (cols - 1);
     const startXOffset = (containerRect.width - totalGridWidth) / 2;
-    
+
     objects.forEach((obj, index) => {
       const objRect = obj.getBoundingClientRect();
-      
+
       const col = index % cols;
       const row = Math.floor(index / cols);
-      
-      const startX = startXOffset + (col * (avgWidth + config.horizontalSpacing)) + objRect.width / 2;
-      
-      const startY = -300 - (row * config.verticalSpacing);
-      
-      const startRotation = (Math.random() - 0.5) * 0.3;
+
+      const startX =
+        startXOffset +
+        col * (avgWidth + config.horizontalSpacing) +
+        objRect.width / 2;
+
+      const startY =
+        -150 - row * (avgHeight + config.verticalSpacing);
+
+      const jitterX = (Math.random() - 0.5) * 10;
+      const jitterY = (Math.random() - 0.5) * 10;
+
+      const startRotation = (Math.random() - 0.5) * 0.15;
 
       const body = Matter.Bodies.rectangle(
-        startX,
-        startY,
+        startX + jitterX,
+        startY + jitterY,
         objRect.width,
         objRect.height,
         {

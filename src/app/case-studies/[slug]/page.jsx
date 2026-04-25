@@ -31,7 +31,7 @@ export default function CaseStudyPage() {
         {/* Hero Section */}
         <section className="case-study-hero">
           <div className="case-study-hero-img">
-            <img src={caseStudy.hero} alt={caseStudy.title} />
+            <img src={caseStudy.herofull} alt={caseStudy.title} />
           </div>
           <div className="case-study-hero-content">
             <Copy delay={0.5}>

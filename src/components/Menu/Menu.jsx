@@ -129,7 +129,7 @@ const Menu = ({ onMenuStateChange }) => {
                     onTransitionReady: slideInOut,
                   });
                 }}>
-                Ahmad Studios
+                BladeZ Does Stuff
               </a>
             </div>
           </div>

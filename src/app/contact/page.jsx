@@ -157,7 +157,7 @@ const page = () => {
         <div className="fc-col-lg">
           <div className="footer-text">
             <div className="footer-text-content">
-              <p className="sm caps">Developed by Muhammad Ahmad</p>
+              <p className="sm caps">Developed by BladeZ</p>
             </div>
           </div>
         </div>

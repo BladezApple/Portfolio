@@ -1,7 +1,7 @@
 import { caseStudies } from "@/data/case-studies";
 
 export default function sitemap() {
-  const baseUrl = "https://m-ahmadportfolio.vercel.app";
+  const baseUrl = "https://bladezdoesstuff.vercel.app";
 
   const routes = ["", "/case-studies", "/contact"].map((route) => ({
     url: `${baseUrl}${route}`,
