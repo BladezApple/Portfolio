@@ -69,25 +69,28 @@ export const caseStudies = [
     featured: true
   },
   {
-    id: "laamore",
-    title: "La Amore",
-    subtitle: "Web Design and Dev, Brand Owner",
+    id: "slayermc",
+    title: "SlayerMC",
+    subtitle: "Minecraft Server Owner, Server Setup, Community Building",
     year: "2025 - Present",
     client: "Personal Foundation",
-    services: ["Website Development", "Website Design", "Brand Foundation"],
-    description: "La Amore is one of my very first personal foundations, where I established a Brand and related assets all by myself. Although multiple aspects such as Website Design, Supplier outreach, Marketing etc are included as part of establishing the brand, only Website Design will be discussed here.",
-    challenge: "This was my very first entrepreneurial venture, and I had to put in a lot of work into researching target markets, profit margins, shipping and more. By far, the biggest challenge I faced was Marketing my products, since La Amore was a premium brand and low-quality marketing could ruin its image.",
-    solution: "The way out of this was utilising AI tools for most social posts, since real photoshoot models were out of the question due to budget. While this wasn't the best solution, it was the most practical one.",
-    results: ["Established my first real-world venture", "Gained valuable leadership, marketing, and outreach experience", "Learnt how to improvise in difficult business situations"],
-    hero: "/LaAmore/hero.webp",
-    herofull: "/LaAmore/herofull.webp",
+    services: ["Server Ownership", "Server Setup", "Community Building"],
+    description: "SlayerMC is a Minecraft server that I founded back in 2025 along with a few friends. Since then, it has grown into a vibrant community with a strong focus on gameplay, events, and player engagement.",
+    challenge: "This was one of my first large projects in the Minecraft space, and I had to learn a lot more about server setup, plugin management, and community building on the fly. The biggest challenge was marketing the server effectively to attract players, since we had a very limited budget and no prior experience in promoting Minecraft servers.",
+    solution: "To overcome this, we focused on creating a unique and engaging server experience that would generate word-of-mouth promotion. We also leveraged social media platforms and Minecraft forums to reach potential players, and encouraged our existing community to share their experiences to help grow the server organically.",
+    results: ["Gained valuable leadership, marketing, and outreach experience", "Built a vibrant community with a strong focus on gameplay and player engagement", "Successfully launched and maintained a Minecraft server with a growing player base", "Learned how to effectively promote a Minecraft server on a limited budget"],
+    hero: "/SlayerMC/hero.webp",
+    herofull: "/SlayerMC/herofull.webp",
     images: [
-      "/LaAmore/img_1.webp",
-      "/LaAmore/img_2.webp",
-      "/LaAmore/img_3.webp",
-      "/LaAmore/img_4.webp"
+      "/SlayerMC/img_1.webp",
+      "/SlayerMC/img_2.webp",
+      "/SlayerMC/img_3.webp",
+      "/SlayerMC/img_4.webp",
+      "/SlayerMC/img_5.webp",
+      "/SlayerMC/img_6.webp",
+      "/SlayerMC/img_7.webp"
     ],
-    tags: ["Hoodie Website", "Fashion Venture", "Business Ideas"],
+    tags: ["Minecraft Server", "Community Building", "Entrepreneurship"],
     featured: true
   },
   {
@@ -110,6 +113,28 @@ export const caseStudies = [
       "/Web Startup/img_4.webp"
     ],
     tags: ["AI Product Design", "Travel Tech", "Design System"],
+    featured: true
+  },
+  {
+    id: "laamore",
+    title: "La Amore",
+    subtitle: "Web Design and Dev, Brand Owner",
+    year: "2025 - Present",
+    client: "Personal Foundation",
+    services: ["Website Development", "Website Design", "Brand Foundation"],
+    description: "La Amore is one of my very first personal foundations, where I established a Brand and related assets all by myself. Although multiple aspects such as Website Design, Supplier outreach, Marketing etc are included as part of establishing the brand, only Website Design will be discussed here.",
+    challenge: "This was my very first entrepreneurial venture, and I had to put in a lot of work into researching target markets, profit margins, shipping and more. By far, the biggest challenge I faced was Marketing my products, since La Amore was a premium brand and low-quality marketing could ruin its image.",
+    solution: "The way out of this was utilising AI tools for most social posts, since real photoshoot models were out of the question due to budget. While this wasn't the best solution, it was the most practical one.",
+    results: ["Established my first real-world venture", "Gained valuable leadership, marketing, and outreach experience", "Learnt how to improvise in difficult business situations"],
+    hero: "/LaAmore/hero.webp",
+    herofull: "/LaAmore/herofull.webp",
+    images: [
+      "/LaAmore/img_1.webp",
+      "/LaAmore/img_2.webp",
+      "/LaAmore/img_3.webp",
+      "/LaAmore/img_4.webp"
+    ],
+    tags: ["Hoodie Website", "Fashion Venture", "Business Ideas"],
     featured: true
   },
   {

@@ -31,20 +31,20 @@ const workExperience = [
   {
     position: "Performance Optimizer",
     company: "RageMC (Minecraft Server)",
-    duration: "2026 - 2026",
+    duration: "2026",
     link: "/case-studies/ragemc",
   },
   {
     position: "CEO",
     company: "UnderFive Studios (Minecraft Marketplace)",
     duration: "2025 - Present",
-    link: "/case-studies/laamore",
+    link: "/case-studies/underfivestudios",
   },
   {
-    position: "Founder",
-    company: "La Amore (Hoodie Brand, discontinued)",
+    position: "Owner",
+    company: "SlayerMC (Minecraft Server)",
     duration: "2025 - Present",
-    link: "/case-studies/laamore",
+    link: "/case-studies/slayermc",
   },
   {
     position: "Co-Founder",
@@ -53,9 +53,10 @@ const workExperience = [
     link: "/case-studies/webstartup",
   },
   {
-    position: "Owner",
-    company: "SlayerMC (Minecraft Server)",
-    duration: "2024 - Present",
+    position: "Founder",
+    company: "La Amore (Hoodie Brand, discontinued)",
+    duration: "2025",
+    link: "/case-studies/laamore",
   },
   {
     position: "Video Editor | Graphics Designer",
