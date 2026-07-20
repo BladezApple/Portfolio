@@ -123,6 +123,7 @@ export default function CaseStudyPage() {
         </section>
 
         {/* Images Gallery */}
+        {caseStudy.images && caseStudy.images.length > 0 && (
         <section className="case-study-gallery">
           {caseStudy.images.map((image, index) => (
             <div key={index} className="gallery-item">
@@ -132,6 +133,23 @@ export default function CaseStudyPage() {
             </div>
           ))}
         </section>
+        )}
+
+        {/* Videos Gallery */}
+        {caseStudy.videos && caseStudy.videos.length > 0 && (
+          <section className="case-study-gallery">
+            {caseStudy.videos.map((video, index) => (
+              <div key={index} className="gallery-item">
+                <Copy>
+                  <video controls>
+                    <source src={video} type="video/mp4" />
+                    Your browser does not support the video tag.
+                  </video>
+                </Copy>
+              </div>
+            ))}
+          </section>
+        )}
 
         {/* Results */}
         <section className="case-study-results">

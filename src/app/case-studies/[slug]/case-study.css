@@ -124,11 +124,18 @@
 }
 
 .gallery-item {
-  margin-bottom: 4rem;
+    margin-bottom: 4rem;
+    display: flex;
+    justify-content: center;
 }
 
 .gallery-item img {
   width: 100%;
+  height: auto;
+}
+
+.gallery-item video {
+  width: 40%;
   height: auto;
 }
 

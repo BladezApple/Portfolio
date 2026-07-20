@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta lang="en-us">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="stylesheets/mainsheet.css">
+    </head>
+
+    <body>
+
+        <header>
+            <a id="header-title" href="index.html">Portfolio</a>
+
+            <div id="header-links">
+                <a class="header-link" href="index.html">Home</a>
+                <a class="header-link scroll-link" href="#about">About</a>
+                <a class="header-link scroll-link" href="#skills">Skills</a>
+                <a class="header-link">Contact</a>
+            </div>
+        </header>
+
+        <div id="sections-container">
+            <section id="hero">
+                <div id="hero-header">
+                    <h2>Building Digital<br>
+                        <span class="grad-text">Experiences</span>
+                    </h2>
+
+                    <p>Frontend Web Developer, Professional Video Editor and
+                    Graphics Designer. Passionate about creating elegant
+                    solutions to complex problems, and pushing past
+                    creative and technical boundaries.
+                    </p>
+                </div>
+
+                <a class="contact">Get In Touch</a>
+            </section>
+
+            <section id="about">
+                <h2>About Me</h2>
+
+                <div id="about-container">
+                    <div id="about-left">
+
+                        <h4>Crafting Digital 
+                            <span class="grad-text" style="font-size: 2.8vw;">
+                            Solutions</span>
+                        </h4>
+
+                        <p>With years of experience in software development, I 
+                        specialize in building robust, scalable applications 
+                        that solve real-world problems. My approach combines 
+                        technical expertise with creative problem-solving to 
+                        deliver exceptional results.<br>
+                        <br>
+                        I'm constantly learning and adapting to new technologies, 
+                        ensuring that every project benefits from the latest 
+                        industry best practices and innovations.</p>
+                    </div>
+
+                    <div id="about-right">
+
+                        <div class="stats stat-animate" data-row="1">
+
+                            <h5 class="stat-header" style="margin-left: 2.8vw;">3+</h5>
+                            <p class="stat-description">Years <br>Experience</p>
+
+                        </div>
+
+                        <div class="stats stat-animate" data-row="1">
+
+                            <h5 class="stat-header">12+</h5>
+                            <p class="stat-description">Successful
+                            Contracts</p>
+
+                        </div>
+
+                        <div class="stats stat-animate" data-row="2">
+
+                            <h5 class="stat-header" style="margin-left: 2.8vw;">3+</h5>
+                            <p class="stat-description">Websites <br>Developed</p>
+
+                        </div>
+
+                        <div class="stats stat-animate" data-row="2">
+
+                            <h5 class="stat-header">10+</h5>
+                            <p class="stat-description">Satisfied <br>Clients</p>
+
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <section id="skills">
+                <h2>Technical Skills</h2>
+
+                <h4>Design and <span class="grad-text" style="font-size: 2.8vw;">Creative</span></h4>
+                <div class="skills-container">
+                    <div class="skill">
+                        <img src="/images/Filmora.png" alt="Wondershare Filmora">
+                    </div>
+
+                    <div class="skill">
+                        <img src="/images/Canva.png" alt="Canva">
+                    </div>
+
+                    <div class="skill">
+                        <img src="/images/Capcut.png" alt="Capcut">
+                    </div>
+
+                    <div class="skill">
+                        <img src="/images/Illustrator.png" alt="Adobe Illustrator">
+                    </div>
+
+                    <div class="skill">
+                        <img src="/images/Photopea.png" alt="Photopea">
+                    </div>
+
+                    <div class="skill">
+                        <img src="/images/Figma.png" alt="Figma">
+                    </div>
+                </div>
+
+                <h4>Web <span class="grad-text" style="font-size: 2.8vw;">Development</span></h4>
+                <div class="skills-container">
+                    <div class="skill">
+                        <img src="/images/HTML.png" alt="HTML">
+                    </div>
+
+                    <div class="skill">
+                        <img src="/images/CSS.png" alt="CSS">
+                    </div>
+
+                    <div class="skill">
+                        <img src="/images/JS.png" alt="JavaScript">
+                    </div>
+
+                    <div class="skill">
+                        <img src="/images/Tailwind.png" alt="Tailwind CSS">
+                    </div>
+
+                    <div class="skill">
+                        <img src="/images/React.png" alt="React.js">
+                    </div>
+
+                    <div class="skill">
+                        <img src="/images/Inertia.png" alt="Inertia.js">
+                    </div>
+
+                    <div class="skill">
+                        <img src="/images/Firebase.png" alt="Firebase">
+                    </div>
+                </div>
+
+                <h4>Dev <span class="grad-text" style="font-size: 2.8vw;">Tools</span></h4>
+                <div class="skills-container">
+                    <div class="skill">
+                        <img src="/images/Github.png" alt="Github">
+                    </div>
+
+                    <div class="skill">
+                        <img src="/images/Vercel.png" alt="Vercel">
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <script>
+
+        // Link Scroll Animations
+
+        const scrollConfig = {
+        speed: 1000,
+        offset: -90,
+        easing: 'easeInOutQuad'
+        };
+
+        const easingFuncs = {
+        linear: t => t,
+        easeInOutCubic: t => t < 0.5 ? 4*t*t*t : 1 - Math.pow(-2*t + 2, 3) / 2,
+        easeOutQuad: t => t*(2 - t),
+        easeInOutQuad: t => t < 0.5 ? 2*t*t : -1 + (4 - 2*t)*t
+        };
+
+        function smoothScrollTo(targetY, duration, easing) {
+        const startY = window.scrollY;
+        const diff = targetY - startY;
+        const startTime = performance.now();
+        const ease = easingFuncs[easing] || easingFuncs.linear;
+
+        function step(currentTime) {
+            const elapsed = currentTime - startTime;
+            const progress = Math.min(elapsed / duration, 1);
+            const easeValue = ease(progress);
+            window.scrollTo(0, startY + diff * easeValue);
+            if (elapsed < duration) requestAnimationFrame(step);
+        }
+
+        requestAnimationFrame(step);
+        }
+
+        document.querySelectorAll('a.scroll-link[href^="#"]').forEach(link => {
+        link.addEventListener('click', e => {
+        e.preventDefault();
+        const targetId = link.getAttribute('href');
+        const targetEl = document.querySelector(targetId);
+        if (!targetEl) return;
+
+        const targetY = targetEl.getBoundingClientRect().top + window.pageYOffset + scrollConfig.offset;
+        smoothScrollTo(targetY, scrollConfig.speed, scrollConfig.easing);
+        });
+        });
+
+        // Stat Box Loader Animations
+
+        document.addEventListener('DOMContentLoaded', function() {
+        const stats = document.querySelectorAll('.stat-animate');
+    
+        const row1Stats = document.querySelectorAll('.stat-animate[data-row="1"]');
+        const row2Stats = document.querySelectorAll('.stat-animate[data-row="2"]');
+    
+        const observerOptions = {
+        threshold: 0.3,
+        rootMargin: '0px 0px -50px 0px'
+        };
+    
+        const observer1 = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+        if (entry.isIntersecting) {
+        row1Stats.forEach(stat => {
+        stat.classList.add('visible');
+        });
+        observer1.unobserve(entry.target);
+        }
+        });
+        }, observerOptions);
+    
+        const observer2 = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+        if (entry.isIntersecting) {
+        row2Stats.forEach(stat => {
+        stat.classList.add('visible');
+        });
+        observer2.unobserve(entry.target);
+        }
+        });
+        }, observerOptions);
+    
+        if (row1Stats.length > 0) {
+        observer1.observe(row1Stats[0]);
+        }
+        if (row2Stats.length > 0) {
+        observer2.observe(row2Stats[0]);
+        }
+        });
+        </script>
+    </body>
+</html>

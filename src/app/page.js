@@ -13,44 +13,51 @@ CustomEase.create("hop", "0.9, 0, 0.1, 1");
 
 const workExperience = [
   {
+    position: "Systems Administrator | Configurator",
+    company: "OmniSMP (Minecraft Server)",
+    duration: "June 2026 - Present",
+    link: "/case-studies/omnismp",
+  },
+  {
+    position: "Video Editor",
+    company: "CobbleLand (Minecraft Server)",
+    duration: "February 2026 - August 2026",
+    link: "/case-studies/cobbleland",
+  },
+  {
     position: "Core Developer",
-    company: "JungleMC Network (Minecraft Server)",
-    duration: "2026 - Present",
+    company: "JungleMC (Minecraft Network)",
+    duration: "March 2026 - May 2026",
     link: "/case-studies/junglemc",
   },
   {
     position: "Video Editor",
     company: "Starmania Network (Minecraft Server)",
-    duration: "2026 - Present"
-  },
-  {
-    position: "Video Editor",
-    company: "CobbleLand (Minecraft Server)",
-    duration: "2026 - Present"
+    duration: "February 2026 - April 2026"
   },
   {
     position: "Performance Optimizer",
-    company: "RageMC (Minecraft Server)",
-    duration: "2026",
+    company: "RageMC (Minecraft Network)",
+    duration: "February 2026",
     link: "/case-studies/ragemc",
   },
   {
     position: "CEO",
     company: "UnderFive Studios (Minecraft Marketplace)",
-    duration: "2025 - Present",
+    duration: "December 2025 - Present",
     link: "/case-studies/underfivestudios",
-  },
-  {
-    position: "Owner",
-    company: "SlayerMC (Minecraft Server)",
-    duration: "2025 - Present",
-    link: "/case-studies/slayermc",
   },
   {
     position: "Co-Founder",
     company: "Web Dev (Startup)",
-    duration: "2025 - Present",
+    duration: "August 2025 - Present",
     link: "/case-studies/webstartup",
+  },
+  {
+    position: "Owner",
+    company: "SlayerMC (Minecraft Server)",
+    duration: "June 2025 - Present",
+    link: "/case-studies/slayermc",
   },
   {
     position: "Founder",
@@ -61,19 +68,19 @@ const workExperience = [
   {
     position: "Video Editor | Graphics Designer",
     company: "Cerebro Ludico (YouTube)",
-    duration: "2024 - 2025",
+    duration: "May 2024 - August 2025",
     link: "/case-studies/cerebroludico",
   },
   {
     position: "Video Editor | Graphics Designer",
     company: "Daily Prehab (Startup)",
-    duration: "2024",
+    duration: "December 2024",
     link: "/case-studies/dailyprehab",
   },
   {
     position: "Video Editor",
     company: "MintLemonade (YouTube)",
-    duration: "2024",
+    duration: "January 2024 - August 2024",
   },
 ];
 
