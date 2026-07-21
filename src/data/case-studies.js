@@ -10,7 +10,7 @@ export const caseStudies = [
     challenge: "The main challenge faced here was adaptability; the server had a unique setup and specific requirements that needed to be understood and addressed. Additionally, maintaining optimal performance while implementing new features and updates required careful planning and execution.",
     solution: "By closely collaborating with the server owner and understanding the specific needs of the server, I was able to implement effective configurations and optimizations. Regular monitoring and adjustments ensured that the server remained stable and responsive, even as new features were added.",
     results: ["Improved server performance", "Enhanced player experience", "Maintained stability during updates"],
-    hero: "/OmnisMP/omnismp.jpg",
+    hero: "/OmniSMP/omnismp.jpg",
     herofull: "/OmniSMP/omnismp.jpg",
     images: [
       "/OmniSMP/sys1.jpg",
