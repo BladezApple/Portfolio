@@ -11,11 +11,11 @@ export const caseStudies = [
     solution: "By closely collaborating with the server owner and understanding the specific needs of the server, I was able to implement effective configurations and optimizations. Regular monitoring and adjustments ensured that the server remained stable and responsive, even as new features were added.",
     results: ["Improved server performance", "Enhanced player experience", "Maintained stability during updates"],
     hero: "/OmnisMP/omnismp.jpg",
-    herofull: "/OmnisMP/omnismp.jpg",
+    herofull: "/OmniSMP/omnismp.jpg",
     images: [
-      "/OmnisMP/sys1.jpg",
-      "/OmnisMP/sys2.jpg",
-      "/OmnisMP/sys3.jpg",
+      "/OmniSMP/sys1.jpg",
+      "/OmniSMP/sys2.jpg",
+      "/OmniSMP/sys3.jpg",
     ],
     tags: ["Systems Administrator", "Configurator", "Server Optimization"],
     featured: true
